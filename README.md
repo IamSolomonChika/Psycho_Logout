@@ -1,6 +1,6 @@
 # The Psycho Logout
 
-#https://psycho-logout-iota.vercel.app/
+https://psycho-logout-iota.vercel.app/
 
 Just a simple logout page with a twist. This will make the user think twice before logging out.
 
