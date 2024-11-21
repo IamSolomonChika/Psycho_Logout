@@ -39,6 +39,7 @@ const SignupPage: React.FC = () => {
             <input
               type="text"
               required
+              autoComplete="name"
               className="appearance-none rounded-lg relative block w-full px-3 py-2 border border-gray-300 dark:border-gray-600 placeholder-gray-500 dark:placeholder-gray-400 text-gray-900 dark:text-white dark:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
               placeholder="Full Name"
               value={formData.name}
@@ -47,6 +48,7 @@ const SignupPage: React.FC = () => {
             <input
               type="email"
               required
+              autoComplete="email"
               className="appearance-none rounded-lg relative block w-full px-3 py-2 border border-gray-300 dark:border-gray-600 placeholder-gray-500 dark:placeholder-gray-400 text-gray-900 dark:text-white dark:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
               placeholder="Email address"
               value={formData.email}
